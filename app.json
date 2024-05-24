@@ -5,6 +5,24 @@
       "bundler": "metro"
     },
     "name": "webjobs",
-    "slug": "webjobs"
+    "slug": "web-jobs",
+    "extra": {
+      "eas": {
+        "projectId": "e445d743-3358-4213-aa2e-72cb0115e3b4"
+      }
+    },
+    "owner": "ockiyac",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e445d743-3358-4213-aa2e-72cb0115e3b4"
+    },
+    "android": {
+      "package": "com.ockiyac.webjobs"
+    },
+    "ios": {
+      "bundleIdentifier": "com.ockiyac.webjobs"
+    }
   }
 }
